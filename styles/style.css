@@ -178,8 +178,14 @@
   margin-block-end: 50px;
 }
 
-.third-section__margin20 {
-  margin-block-end: 20px;
+.third-section__title {
+  margin-block-end: 0;
+}
+
+.third-section__cards-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .third-section__subtitle {
@@ -365,80 +371,4 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
 
-  .page {
-    background-image: url(/images/cover-image-dark.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    --bg-color: #000028;
-    --text-color: #f1b2ce;
-    --main-title-color: #db00ff;
-    --main-title-accent-color: #ff0070;
-    --title-decor-color: #ff0070;
-    --accent-color: #ff0070;
-    --subtitle-color: #000028;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-
-  .page {
-    background-image: url(/images/cover-image-light.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    --bg-color: #fff1f7;
-    --text-color: #353430;
-    --main-title-color: #ffc2e6;
-    --main-title-accent-color: #ff0070;
-    --accent-color: #353430;
-    --subtitle-color: #353430;
-    --title-decor-color: #ff8dcb;
-  }
-
-  .decorated-zone__span {
-    display: none;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-
-  .page {
-    background-image: url(/images/cover-image-dark.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    --border-hover-color: rgb(255 0 112 / 0.4);
-    --bg-color: #000028;
-    --text-color: #f1b2ce;
-    --main-title-color: #db00ff;
-    --main-title-accent-color: #ff0070;
-    --title-decor-color: #ff0070;
-    --accent-color: #ff0070;
-    --subtitle-color: #000028;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-
-  .page {
-    background-image: url(/images/cover-image-light.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    --border-hover-color: rgb(50 49 45 / 0.4);
-    --bg-color: #fff1f7;
-    --text-color: #353430;
-    --main-title-color: #ffc2e6;
-    --main-title-accent-color: #ff0070;
-    --accent-color: #353430;
-    --subtitle-color: #353430;
-    --title-decor-color: #ff8dcb;
-  }
-
-  .decorated-zone__span {
-    display: none;
-  }
-}
